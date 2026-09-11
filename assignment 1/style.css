@@ -4,10 +4,11 @@ body
 }
 .box
 {
-    width: 800px;
+    width: 840px;
     height: 400px;
     border: 3px solid black;
     margin: 10px auto;
+   background-color:  #F3F6F9;
 }
 .study
 {
@@ -23,16 +24,80 @@ body
 .one
 {
     width: 30%;
-    height: 40%;
+    height: 50%;
     background-color: #F5F0E3;
     border: 5px solid #306E4F;
     border-radius: 10px;
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+    font-size: larger;
+    
+    
+    
 }
 .one>h1
 {
     color: #4A7969;
+    padding-left: 10px;
+    
 }
 .one>p
 {
     color: #263E45;
+    padding: 0px 10px;
+}
+.two
+{
+    width: 30%;
+    height: 50%;
+    background-color: #E2F0FC;
+    border: 5px dashed #106DCD;
+    border-radius: 10px;
+        display: inline-block;
+       margin: 0px 0px 0px 10px;
+       font-size: larger;
+
+
+}
+.two>h1
+{
+    color: #062B56;
+    padding-left: 10px;
+}
+.two>p
+{
+    color: #344A63;
+     padding: 0px 10px;
+}
+.three
+{
+        width: 30%;
+    height: 50%;
+    background-color:#E8E4FC;
+    border: 7px double #554598;
+    border-radius: 10px;
+        display: inline-block;
+    margin: 0px 0px 0px 10px;
+    font-size: larger;
+}
+.three > h1
+{
+    color:#280C64 ;
+    padding-left: 10px;
+}
+.three > p
+{
+    color: #2E3F54;
+     padding: 0px 10px;
+}
+.practicing
+{
+  width: 95%;
+    height: 14%;   
+     border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 20px;
+    background-color: #DFE3EA;
+    color: #1B2D3C; 
+    text-align: center;
 }
