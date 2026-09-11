@@ -20,3 +20,19 @@ body
     color: #082846;
     text-align: center;
 }
+.one
+{
+    width: 30%;
+    height: 40%;
+    background-color: #F5F0E3;
+    border: 5px solid #306E4F;
+    border-radius: 10px;
+}
+.one>h1
+{
+    color: #4A7969;
+}
+.one>p
+{
+    color: #263E45;
+}
