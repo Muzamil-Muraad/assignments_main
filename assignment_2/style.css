@@ -1,0 +1,33 @@
+body
+{
+    margin: 0%;
+
+}
+header
+{   width: 1280px;
+    height: 100px;
+    background: #000;
+
+
+
+}
+
+.back{
+    color: white;
+    font-size: large;
+
+
+}
+.logo
+{
+    width: 200;
+    height: 80px;
+    padding-left: 30px;
+    padding-top: 10px;
+    display: inline;
+}   
+.FL
+{
+    display: inline;
+    color: white;
+}    
