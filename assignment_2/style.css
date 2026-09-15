@@ -52,9 +52,9 @@ header a
      text-decoration: none;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: inline;
-    color:whitesmoke;
-    font-size: 16px;
-    font-weight: 600px;
+    color: white;
+    font-size: 18px;
+    font: weight 500px;;
 }   
 .bg1>img
 {   padding-bottom: 0px;
@@ -68,8 +68,54 @@ header a
 }
 .FTV
 {
-    background-color:rgb(15, 15, 15);
+    
+    background-color:rgb(21, 21, 21);
     margin-top: 0px;
     padding-top: 0px;
-    width: 100%;
+    width: 1265px;
+    height: 500px;
+    position: relative;
+    bottom: 27px;
+}
+.FTV >h1
+{   padding-top: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600PX;
+}
+
+.FTV >p
+{
+    color: white;
+    text-align: center
+}
+.birds
+{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.cow
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.b1
+{
+margin-left: 600px;
+background-color: #00a450;
+width: 140px;
+height: 50px;
+border-radius:30px;
+border: 1px #00a450 solid;
+color: white;
+margin-top: 30px;
+}
+.b1:hover
+{
+    background-color:rgb(21, 21, 21) ;
+    cursor: pointer;
 }
