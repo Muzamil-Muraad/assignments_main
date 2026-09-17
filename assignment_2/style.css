@@ -125,17 +125,181 @@ margin-top: 30px;
 .OM
 {
 width: 1265px;
-height: 1000px;
+height: auto;
 background-color: rgb(0, 0, 0)  ;
 margin-top: 0px;
 padding-top: 0px;
-position: relative;
-top: 0px;
+
 }
-.OM>h1
+.firsth1
 {
    color:  rgb(255, 255, 255);
    text-align: center;
    margin-top: 0px;
    padding-top: 30px;
+}
+.secondh1
+{ color:  rgb(255, 255, 255);
+    text-align: left;
+}
+.btn1
+{
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    width: 174px;
+    height: 50px;
+    margin: 40px 12px 0px 20px;
+    border-radius: 50px;
+    border: 1px solid grey  ;
+    font-weight:bold ;
+}
+.arrow
+{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    left: 5px;
+    margin-left: 150px;
+    margin-top: 52px;
+    
+}
+.IMG1
+{
+    margin-left: 660px;
+    position: relative;
+    bottom: 100px   ;
+}
+.content
+{
+    display: inline-block !important;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.om1
+{
+    width: 520px;
+     height: 600px;
+}
+.om2
+{
+        width: 520px;
+     height: 520px;
+     margin-left: 50px;
+     display: inline;
+}
+.thirdh1
+{
+    color: white;
+}
+.btn2
+{
+        color: white;
+    background-color: #000;
+    cursor: pointer;
+    width: 174px;
+    height: 50px;
+    margin: 40px 12px 0px 20px;
+    border-radius: 50px;
+    border: 1px solid grey  ;
+    font-weight:bold ;
+}
+.arrow2
+{
+      width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    left: 5px;
+    margin-left: 150px;
+    margin-top: 52px;
+}
+.IMG2 
+{
+    display: inline;
+}
+.content2
+{
+    display: inline-block;
+    position: relative;
+    bottom: 400px;
+    left: 10px;
+}
+.grey
+{
+    margin-top: 50px;
+    background: #0f0f0f;
+    width: 1265px;
+    height: 400px;
+    
+}
+.grey1
+{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500px;
+    font-size: 16px ;
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+}
+.grey1>h1
+{
+    color: whitesmoke;
+    
+}
+.grey1>p
+{
+    color: #28a641;
+}
+.grey2
+{
+    display: inline-block;
+    
+}
+.grey2>img
+{
+    width: 632.5px;
+    height: 400px;
+    margin-left: 210px;
+}
+.btn3
+{
+   background-color:  #28a745;
+   color: white;
+    
+    cursor: pointer;
+    width: 174px;
+    height: 50px;
+    margin: 40px 12px 0px 20px;
+    border-radius: 50px;
+    border: 1px solid grey  ;
+    font-weight:bold ;
+}
+.btn4
+{
+    background: #0f0f0f;
+     color: white;
+    
+    cursor: pointer;
+    width: 174px;
+    height: 50px;
+    margin: 40px 12px 0px 20px;
+    border-radius: 50px;
+    border: 1px solid grey  ;
+    font-weight:bold ;
+}
+.arrow3
+{
+      width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
 }
