@@ -1,198 +1,317 @@
 @font-face {
-    font-family: "my";
+    font-family: my;
     src: url(FONTS/Inter/Inter-VariableFont_opsz\,wght.ttf);
 }
-body
+*
 {
-    margin: 0px;
-    font-family: "my";
+    padding: 0%;
+    margin: 0%;
+    font-family: my;
+    color: white;
 }
-                                /* main header begins  */
+
+
+@media  (min-width:320px)
+{
+                /* header begins */
 header
 {
- background-color: black;
- width: 100%;
-  height: 100px;
-display: inline-block  ;
-}
-.logo
-{
-    display: inline;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logo > .logoi
+.hamburger >.logo
 {
-    width: 140px;
-    height: 80px;
-    margin-top: 10px;
-    margin-left: 50px;
-
-}
-.list >ul >li
-{
-    display: inline;
-    margin: 15px;
-
-}
-.list >ul
-{
-    display: inline;
-    margin-left: 200px;
-
+    width: 30px;
+    height: 40px;
+    margin-top: 15px;
 }
 
-.list
+.logomain >img  
 {
-    display: inline;
- margin-left: 130px;
- position: relative;
- bottom: 30px;
+    width: 84px;
+    height: 38.4px;
+
+}
+nav
+{
+    margin-top: 40px;
+
+}
+.btnred
+{
+    background-color: red;
+    border: none;
+    width: 120px;   
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+        display: inline-block;
+        position: relative;
+        bottom: 20px;
+        right: 10PX;
+}
+.arrow1
+{
+    position: relative;
+   top: 2px;
+}
+nav >ul
+{
+    display: none;
+}
+.btnblack
+{
+    display: none;
+}
+                                  /*header end*/
+
+
+.heroimg
+{
+    width: 100%;
+    
+    
 
 }  
-.list a 
-{   font-family: "my";
-    text-decoration: none;
-    color: white;
+.hero
+{   background: #000;
+    display: inline-block;
+    line-height: 5;
+}                         
+                                  /*after hero 1 section*/
+
+.section1
+{
+    background-color: #000;
+    width: 100%;
+
+}           
+.section1>h1
+{   
+    font-weight: lighter;
+    text-align: center;
+
+   }
+   .section1>p
+{   
+    font-weight: lighter;
+    text-align: center;
+    line-height: 6;
+
+   }                /*after hero 1 section PART 2*/
+.section1p1
+{
+    display: flex   ;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    line-height: 5;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.child1
+{
+    width: 30%;
+    height: 20%;    
+    background-color: white;
+}
+.child2
+{
+    width: 30%;
+    height: 20%;    
+    background-color: white;
+}
+.child3
+{
+    width: 30%;
+    height: 20%;    
+    background-color: white;
+}
+.c1i1
+{
+    justify-content: center;
+    align-items: center;
+    width: 219px;
+    height: 140px
     
 }
-.black
+}
+
+                        
+
+
+@media (min-width:992px)
+{                                    /*header begin*/
+header
 {
-    width: 135.66px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.hamburger
+{
+    display: none;
+}
+.logomain >img  
+{
+    width: 190px;
+    height: 76px;
+
+}
+nav
+{
+    width: 700px;
+}
+
+.logomain 
+{
+    margin-left: 20px;
+}
+nav >ul
+{
+    display:inline;
+}
+.btnblack
+{
+    display: inline;
+        width: 138px;
     height: 45px;
-    color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
     padding: 12px 16.5px 12px 16.5px;
     font-size: 14px;
     font-weight: 400;
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 30px;
-    cursor: pointer;
+    background: #000;
+    border: solid 1px white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+
 }
-.red
+
+nav >ul>li
 {
-    width: 145.91px;
-    height: 51.33px;
-        color: #ffffff;
-    padding: 12px 13.5px 12px 13.5px;
+    display: inline;
+    list-style-type: none;
+    
+
+}
+nav >ul>li>a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;     
+}
+.btnred
+{
+background-color: red;
+    border: none;
+    width: 144px;   
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+        display: inline-block;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+}
+                            /* header end */
+}
+
+@media  (min-width:1200px)
+{               /* header begins */
+header  
+{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hamburger
+{
+    display: none;
+}
+.logomain >img  
+{
+    width: 190px;
+    height: 76px;
+
+}
+ nav
+{
+    width: 700px;
+}
+
+.logomain 
+{
+    margin-right: 220px;
+}
+nav >ul
+{
+    display:inline;
+}
+.btnblack
+{
+    display: inline;
+        width: 138px;
+    height: 45px;
+        color: rgb(255, 255, 255);
+    padding: 12px 16.5px 12px 16.5px;
     font-size: 14px;
     font-weight: 400;
-    background-color: rgb(237, 28, 35);
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-}
-.hamburger
-{
-    display: none;
-}
-                             /*main  header ends  */
-@media only screen and (max-width:576px)
-{
-                                /* header*/
-header
-{
- background-color: black;
- width: 100%;
-  height: 59.4px;
-display: inline-block  ;
-}
-
-.logo > .logoi
-{
-    width: 90px;
-    height: 44.4px;
-    margin-left: 35px;
+    background: #000;
+    border: solid 1px white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
 
 }
 
-.list a 
-{   font-family: "my";
+nav >ul>li
+{
+    display: inline;
+    list-style-type: none;
+    
+
+}
+nav >ul>li>a
+{
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
+    padding: 10px 20px;     
 }
-
-.list >ul
+.btnred
 {
-    display: inline;
-    margin-left: 10px;
-
-}
-.list
-{
-    display: inline;
- margin-left: 10px;
- position: relative;
- bottom: 40px;
- display: inline;
-
-}  
-.black 
-{
-    display: none;
-}
-.list a 
-{
-    display:  none ;
-}
-.hamburger
-{
-    display: inline;
-    width: 30px;
-    height: 33px;
-    margin-bottom: 5px;
-
-}
-
-.red
-{
-    width: 113.85px;
-    height: 32px;
-        color: #ffffff;
-    padding: 7px 10px 7px 10px;
-    font-size: 12px;
-    font-weight: 500;
-    background-color: rgb(237, 28, 35);
-    border-radius: 15px;
+background-color: red;
     border: none;
-    cursor: pointer;
-}
-
-}
-@media only screen and (min-width:576px)
-{
-
-}
-@media only screen and (min-width:768px)
-{
-
-}
-@media only screen and (min-width:992px)
-{
-
-}
-@media only screen and (min-width:1200px)
-{
-
-}
-@media only screen and (min-width:1400px)
-{
-header
-{
-    height: 200px;
-}
-.logo > img
-{
-    width: 280px;
-    height: 160px;
-    margin-top: 10px;
-    margin-left: 50px;
-
-}
-.list a 
-{   font-family: "my";
-    text-decoration: none;
+    width: 144px;   
+    height: 50px;
     color: white;
-    font-size: 50px;
+    font-weight: bold;
+    border-radius: 50px;
+        display: inline-block;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+}               /* header end */
+
+}
+@media  (min-width:1400px)
+{
+body
+{
+    background: #0710ff;
 }
 }
