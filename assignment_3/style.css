@@ -64,7 +64,14 @@ nav
     display: none;
 }
 .right_arrow1
-{display: none;}                           /* HEADER END */
+{display: none;}    
+
+/* HEADER END */
+.heroimage
+{
+    width: 100%;
+    
+}
 }
 @media  (min-width : 992px) 
 {                                                   
