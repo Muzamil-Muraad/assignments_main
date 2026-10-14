@@ -70,7 +70,8 @@ nav
 .heroimage
 {
     width: 100%;
-    height: 40%;
+    object-fit: contain;
+    object-position: center;
 }
 }
 @media  (min-width : 992px) 
